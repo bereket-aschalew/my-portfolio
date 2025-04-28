@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bereket Aschalew | Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#home">Bereket aschalew</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Bereket Aschalew</h1>
+                <h2>Frontend Developer & UI Enthusiast</h2>
+                <p>Crafting beautiful, responsive web experiences</p>
+                <a href="#about" class="btn primary-btn">About Me <i class="fas fa-arrow-down"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="download (3).jpg" alt="Bereket Aschalew">
+                </div>
+                <div class="about-text">
+                    <h3>Hello, I'm Bereket aschalew</h3>
+                    <p>I'm a 17 years old passionate frontend developer, specializing in creating responsive and user-friendly web interfaces. With a strong foundation in HTML, CSS, and JavaScript, I transform design concepts into seamless, interactive experiences.</p>
+                    <p>My approach combines clean code with creative problem-solving to build websites that not only look great but also provide exceptional user experiences across all devices.</p>
+                    <div class="about-buttons">
+                        <a href="#projects" class="btn primary-btn">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup, accessibility, and modern HTML practices</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Flexbox, Grid, animations, and responsive design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, and interactive features</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-first approach and cross-browser compatibility</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Basics</h3>
+                    <p>User-centered design principles and visual aesthetics</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control, collaboration, and deployment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="website">Websites</button>
+                <button class="filter-btn" data-filter="ui">UI Design</button>
+            </div>
+            <div class="projects-container">
+                <!-- Project 3 -->
+                <div class="project-card" data-category="ui">
+                    <div class="project-img">
+                        <img src="Screenshot (82).png" alt="Portfolio Design">
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Design</h3>
+                        <p>A clean, modern portfolio template with smooth animations and responsive layout.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/bereket-aschalew" class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card" data-category="website">
+                    <div class="project-img">
+                        <img src="Screenshot (84).png" alt="Restaurant Website">
+                    </div>
+                    <div class="project-info">
+                        <h3>Restaurant Website</h3>
+                        <p>A responsive website for a restaurant with menu, reservation form, and location map.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/bereket-aschalew" class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card" data-category="ui">
+                    <div class="project-img">
+                        <img src="Analytics Admin UI Design.jpg" alt="Dashboard UI">
+                    </div>
+                    <div class="project-info">
+                        <h3> Analytics Dashboard UI</h3>
+                        <p>A clean, modern dashboard interface with charts, data tables, and responsive layout.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/bereket-aschalew" class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out to me for collaboration, job opportunities, or just to say hello!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:bereketa894@gmail.com">bereketa894@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Addis Ababa, Ethiopia</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://t.me/GP_hun73r" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://github.com/bereket-aschalew" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/gp._.hun73r/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bereket Aschalew. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Loading Animation -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
